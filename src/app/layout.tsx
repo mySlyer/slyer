@@ -8,8 +8,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Jipeng's toolbox",
-  description: '继鹏工作中常用的工具集合',
+  title: 'qrcode toolbox',
+  description: '二维码分享工具',
 };
 
 export default function RootLayout({

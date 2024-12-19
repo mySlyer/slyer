@@ -242,7 +242,7 @@ export async function getChannelDownloadQRCodeList({
               ...commonRes,
               error: {
                 ...e?.response?.errors?.[0],
-                message: '无权限，找继鹏',
+                message: '无权限，找',
                 type: 'no-permission',
               },
             };

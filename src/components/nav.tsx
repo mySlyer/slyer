@@ -18,7 +18,7 @@ export default function Nav({ className }: NavProps) {
     <div className={cn('flex items-center space-x-4 lg:space-x-6', className)}>
       <Link href="/" className="flex items-center gap-2 font-semibold mr-2">
         <Package2 className="h-6 w-6" />
-        <span className="">继鹏的工具箱</span>
+        <span className="">二维码分享</span>
       </Link>
       {NAV_LINKS.map(({ name, href, icon }) => {
         const selected =

@@ -142,7 +142,7 @@ export default function GeckoQRCode({
             <div className="h-4 text-xs flex items-center gap-1">
               {kaniUrl ? (
                 <>
-                  让继鹏点→
+                  让点→
                   <Link
                     href={kaniUrl}
                     target="_blank"

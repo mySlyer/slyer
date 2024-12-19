@@ -65,7 +65,7 @@ export default async function Image() {
                 fontWeight: 500,
               }}
             >
-              继鹏的工具箱
+              二维码分享工具
             </span>
           </div>
         </div>

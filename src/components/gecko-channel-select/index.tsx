@@ -60,7 +60,7 @@ export default function GeckoChannelSelect({
       value={selectedOptions}
       onChange={onSelectedChange}
       onSearch={onSearchChannel}
-      placeholder="搜索 gecko channel"
+      placeholder="搜索 qrcode"
       loadingIndicator={
         <p className="py-2 text-center text-sm leading-10 text-muted-foreground">
           <Spinner size="small">loading...</Spinner>
@@ -68,7 +68,7 @@ export default function GeckoChannelSelect({
       }
       emptyIndicator={
         <p className="w-full text-center text-sm leading-10 text-muted-foreground">
-          No channel found
+          No qrcode found
         </p>
       }
     />

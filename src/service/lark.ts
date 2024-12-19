@@ -67,8 +67,8 @@ export async function handleLarkEvent(data: any) {
     return {
       inline: {
         i18n_title: {
-          zh_cn: '继鹏的工具箱',
-          en_us: "Jipeng's toolbox",
+          zh_cn: '二维码分享',
+          en_us: "qrcode toolbox",
         },
         image_key: 'img_v3_02a1_ab04423c-035c-4525-99b1-36b59d7f088g',
       },

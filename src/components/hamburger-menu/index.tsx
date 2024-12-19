@@ -35,7 +35,7 @@ export default function HamburgerMenu({ className }: HamburgerMenuProps) {
             className="flex items-center gap-2 text-lg font-semibold"
           >
             <Package2 className="h-6 w-6" />
-            <span className="sr-only">继鹏的工具箱</span>
+            <span className="sr-only">二维码分享工具</span>
           </Link>
           {NAV_LINKS.map(({ name, href, icon }) => {
             const selected =

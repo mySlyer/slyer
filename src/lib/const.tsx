@@ -9,9 +9,9 @@ export const ICON_MAP: Record<string, ReactNode> = {
 };
 
 export const NAV_LINKS = [
-  { name: 'Dashboard', href: '/', icon: 'home' },
-  { name: 'Gecko 下载', href: '/gecko', icon: 'package' },
-  { name: 'Excalidraw', href: '/excalidraw', icon: 'draw' },
+  // { name: 'Dashboard', href: '/', icon: 'home' },
+  { name: '二维码查看', href: '/qrcode', icon: 'package' },
+  // { name: 'Excalidraw', href: '/excalidraw', icon: 'draw' },
 ];
 
 export const ALL_GECKO_APP_ID_LIST = [
@@ -24,7 +24,7 @@ export const ALL_GECKO_APP_ID_LIST = [
 export const GECKO_DEPLOYMENT_MAP: Record<GeckoAppID, GeckoApp> = {
   [GeckoAppID.Aweme]: {
     appID: GeckoAppID.Aweme,
-    name: '抖音',
+    name: '微信群',
     logo: 'https://lf26-geckocdn-tos.pstatp.com/obj/ies.fe.gecko/8cb4ad0a11052ceae8e0b26b8ae49745/%E6%8A%96%E9%9F%B3icon512%E7%9B%B4%E8%A7%92.png',
     prod: {
       deploymentID: 1325,
@@ -37,7 +37,7 @@ export const GECKO_DEPLOYMENT_MAP: Record<GeckoAppID, GeckoApp> = {
   },
   [GeckoAppID.AwemeLite]: {
     appID: GeckoAppID.AwemeLite,
-    name: '抖音极速版',
+    name: '订阅号',
     logo: 'https://sf6-hscdn-tos.pstatp.com/obj/ies.fe.gecko/b93ad371430a91d60d190dc6d8e8f114/icon_launcher.png',
     prod: {
       deploymentID: 10170,
@@ -50,7 +50,7 @@ export const GECKO_DEPLOYMENT_MAP: Record<GeckoAppID, GeckoApp> = {
   },
   [GeckoAppID.AwemeHTS]: {
     appID: GeckoAppID.AwemeHTS,
-    name: '抖音火山版',
+    name: '服务号',
     logo: 'https://tosv.byted.org/obj/ies.fe.gecko/d02b5ab0874a18f2fc08ce74af2a6c99/20220908-165257.png',
     prod: {
       deploymentID: 11310,
@@ -63,7 +63,7 @@ export const GECKO_DEPLOYMENT_MAP: Record<GeckoAppID, GeckoApp> = {
   },
   [GeckoAppID.LifeServiceMidPlatform]: {
     appID: GeckoAppID.LifeServiceMidPlatform,
-    name: '生活服务中台',
+    name: '小程序',
     logo: 'https://tosv.byted.org/obj/ies.fe.gecko/5eca90dc9b679670615154531d8ee7ea/logo.png',
     prod: {
       deploymentID: 11402,

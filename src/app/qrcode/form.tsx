@@ -68,18 +68,19 @@ function GeckoSearchForm() {
       />
       <Tabs value={isTest ? 'true' : 'false'} onValueChange={onIsTestChange}>
         <TabsList>
-          <TabsTrigger value="true">内测部署</TabsTrigger>
-          <TabsTrigger value="false">线上部署</TabsTrigger>
+          <TabsTrigger value="true">搜索</TabsTrigger>
+          {/* <TabsTrigger value="false">线上部署</TabsTrigger> */}
         </TabsList>
       </Tabs>
-      {isTest && (
+      {/* {isTest && (
         <Input
           defaultValue={env ?? undefined}
           placeholder="环境名称"
           onChange={onEnvChange}
           className="w-[200px]"
         />
-      )}
+      )} */}
+      <div className="w-[300px]"></div>
     </div>
   );
 }

@@ -41,9 +41,8 @@ export default function HelpContent() {
       </h4>
       <p className="leading-7 [&:not(:first-child)]:mt-6">
         本工具利用了 gecko 的 open api 请求 gecko
-        的数据，请求数据的密钥使用个人的 ak sk
-        构造，因此权限也是继鹏的个人权限。 如果发现某个 channel
-        的二维码不出现且提示无访问权限，请联系继鹏让他申请权限。
+        的数据，请求数据的密钥使用个人的 ak sk 构造，如果发现某个 channel
+        的二维码不出现且提示无访问权限，请联系让他申请权限。
       </p>
     </>
   );
